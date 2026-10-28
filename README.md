@@ -1,22 +1,25 @@
 # 📊 Análisis de Riesgo Crediticio y Cartera de Morosidad
 
-## 🎯 1. Contexto del Negocio y Objetivo
-En el sector de gestión de riesgo financiero (asociado a entornos tipo Equifax), la capacidad de anticiparse a la morosidad y evaluar con precisión el estrés financiero de los clientes es vital para proteger la rentabilidad de la cartera. Este proyecto implementa un análisis exploratorio y de segmentación utilizando **SQL (SQLite)** para auditar el comportamiento de pago, la carga de endeudamiento, el perfil demográfico y el riesgo territorial de los clientes.
+## 1. Contexto del Negocio y Objetivo
+En el sector de gestión de riesgo financiero, la capacidad de anticiparse a la morosidad y evaluar con precisión el estrés financiero de los clientes es vital para proteger la rentabilidad de la cartera. Este proyecto implementa un análisis exploratorio y de segmentación utilizando **SQL (SQLite)** para auditar el comportamiento de pago, la carga de endeudamiento, el perfil demográfico y el riesgo territorial de los clientes.
 
 ---
 
-## 🛠️ 2. Estructura del Repositorio
+## 2. Estructura del Repositorio
 * `sql/script_analisis_riesgo.sql`: Archivo consolidado con los 6 módulos de consultas SQL.
 * `assets/screenshots/`: Capturas de pantalla de la ejecución de cada consulta en DB Browser.
 * `dataset/`: Archivo de datos base utilizado para las auditorías.
 
 ---
 
-## 📈 3. Hallazgos por Módulo de Análisis
+## 3. Hallazgos por Módulo de Análisis
 
 ### Módulo 1: Riesgo Territorial y Geográfico
-* **Pregunta de Negocio:** ¿Qué países concentran la mayor cantidad y tasa de clientes con historial de pago deficiente ('Poor')?
-* **Hallazgo:** *(Inserta aquí una breve descripción de lo que mostró tu tabla, ej: El país X presenta la mayor concentración porcentual de morosidad, lo que requiere ajustar políticas de aprobación locales).*
+* **Pregunta de Negocio:** ¿Qué países concentran la mayor tasa de clientes con historial de pago deficiente ('Poor')?
+
+* **Hallazgo:** El análisis geográfico revela que Kuwait presenta la tasa de morosidad más alta de la cartera con un 44.64%, superando por más de 5 puntos porcentuales al segundo país con mayor riesgo (Aruba, con 39.34%). Este comportamiento se repite de forma crítica en el resto del Top 10 de regiones evaluadas.
+
+* **Recomendación de Negocio:** Establecer un objetivo preventivo de negocio consistente en incrementar los requerimientos y filtros de aprobación crediticia para estas regiones específicas, mitigando así el riesgo de que la tasa de morosidad continúe escalando.
 * **Captura de Resultado:**
   ![Riesgo Geográfico](assets/screenshots/modulo_1.png)
 
