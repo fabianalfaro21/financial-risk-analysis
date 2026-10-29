@@ -25,7 +25,9 @@ En el sector de gestión de riesgo financiero, la capacidad de anticiparse a la 
 
 ### Módulo 2: Estrés Financiero por Cargas Familiares
 * **Pregunta de Negocio:** ¿Tienen los clientes con 2 o más dependientes un ratio de endeudamiento (Debt-to-Income) que rebase los límites de tolerancia al riesgo?
-* **Hallazgo:** *(Inserta aquí tu hallazgo, ej: El segmento familiar presenta un DTI promedio elevado, superando los umbrales seguros en un % crítico de los casos).*
+* **Hallazgo:** *Dentro del universo de 7,717 clientes con 2 o más dependientes, el 30.47% (2,351 clientes) se encuentra en una zona de alto riesgo financiero al superar un DTI del 45%. Aunque el DTI promedio del segmento se sitúa en un 35.09%, casi un tercio de este grupo compromete de forma crítica su liquidez mensual para cumplir con sus obligaciones.*
+
+* **Recomendación de Negocio:** Para mitigar el sobreendeudamiento en hogares vulnerables, se sugiere implementar una política de cap máximo de DTI al 40% para solicitudes con 2+ dependientes, además de ajustar el cupo de crédito aprobado o solicitar garantías adicionales en aquellos casos que sobrepasen el umbral de tolerancia.
 * **Captura de Resultado:**
   ![Estrés Financiero](assets/screenshots/modulo_2.png)
 
